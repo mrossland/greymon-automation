@@ -1,0 +1,18 @@
+{
+  "id": "greymon-automation",
+  "title": "Greymon Automation",
+  "description": "GM-side helpers for the Breaking the Green Circle campaign: rolls monster saving throws requested by player macros and applies the results (Prone, pushes, Searing Smite burns), using socketlib.",
+  "version": "1.0.0",
+  "authors": [{ "name": "Mark" }],
+  "compatibility": { "minimum": "13", "verified": "14" },
+  "relationships": {
+    "systems": [{ "id": "dnd5e", "type": "system" }],
+    "requires": [{ "id": "socketlib", "type": "module" }]
+  },
+  "esmodules": ["scripts/main.js"],
+  "socket": true,
+  "url": "https://github.com/mrossland/greymon-automation",
+  "manifest": "https://github.com/mrossland/greymon-automation/releases/latest/download/module.json",
+  "download": "https://github.com/mrossland/greymon-automation/releases/download/v1.0.0/module.zip",
+  "license": "MIT"
+}
