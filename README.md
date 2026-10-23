@@ -17,6 +17,8 @@ Used by the Hammer of Faith macro (Valorian Hammerheart). A GM must be logged in
 
 ## Install
 
-Manifest URL: `https://github.com/mrossland/greymon-automation/releases/latest/download/module.json`
+Manifest URL: `https://raw.githubusercontent.com/mrossland/greymon-automation/main/module.json`
+
+To release an update: raise `version` in `module.json`, rebuild `dist/module.zip` from `module.json`, `scripts/`, `README.md` and `LICENSE`, and push to `main`.
 
 Requires socketlib.
